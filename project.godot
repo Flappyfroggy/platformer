@@ -15,9 +15,13 @@ run/main_scene="uid://bbb705ask0f5j"
 config/features=PackedStringArray("4.5", "Mobile")
 config/icon="res://icon.svg"
 
+[autoload]
+
+e="*res://e.gd"
+
 [editor_plugins]
 
-enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg", "res://addons/s/plugin.cfg")
+enabled=PackedStringArray("res://addons/godot_super-wakatime/plugin.cfg")
 
 [input]
 
