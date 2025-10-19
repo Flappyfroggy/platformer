@@ -6,7 +6,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wwkck"]
 size = Vector2(455.20166, 449.09192)
 
-[node name="CharacterBody2D" type="CharacterBody2D"]
+[node name="playeere" type="CharacterBody2D"]
 position = Vector2(-38.686966, -71.773865)
 scale = Vector2(0.294375, 0.3406875)
 slide_on_ceiling = false
@@ -26,3 +26,5 @@ texture = ExtResource("2_8erjc")
 [node name="Camera2D" type="Camera2D" parent="."]
 position = Vector2(131.42068, 210.6736)
 scale = Vector2(3.3970275, 2.9352412)
+limit_left = -575
+limit_bottom = 322

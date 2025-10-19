@@ -1,0 +1,18 @@
+[gd_scene load_steps=4 format=4 uid="uid://x4xx37jr2tbf"]
+
+[ext_resource type="TileSet" uid="uid://p6xnxgfamb64" path="res://scenes/tiles.tres" id="1_if4l3"]
+[ext_resource type="Texture2D" uid="uid://dlvlf7op2j0aq" path="res://assets/level 2.png" id="2_4038r"]
+[ext_resource type="PackedScene" uid="uid://bm6g4l4px8bti" path="res://scenes/playeere.tscn" id="3_2k3dv"]
+
+[node name="level2" type="Node2D"]
+
+[node name="TileMapLayer" type="TileMapLayer" parent="."]
+tile_map_data = PackedByteArray("AAD//w4AAAAAAAAAAAD1/xIAAAAAAAAAAADf/wQAAgAAAAAAAADj/wgAAgAAAAAAAADj/wsAAgAAAAAAAADf/wgAAgAAAAAAAADf//7/AwAAAAAAAAAeAAkAAgAAAAAAAAApAAsAAgAAAAAAAAAsAAgAAgAAAAAAAAAtAAUABQAAAAAAAAAYAA0AAgAAAAAAAAAiAA0AAgAAAAAAAADb//n/BQAAAAAAAADb//b/BQAAAAAAAAAUABUAAgAAAAAAAAAzAOf/AAAAAAAAAAAwAOz/AgAAAAAAAABMAPb/AgAAAAAAAABVAPv/AgAAAAAAAAA2APD/AgAAAAAAAAA0AAEABQAAAAAAAAAuAOn/BQAAAAAAAAA2APX/AgAAAAAAAABMAPD/AwAAAAAAAABXAPX/AwAAAAAAAAByAPH/AwAAAAAAAABvAPb/AgAAAAAAAAB1APf/AgAAAAAAAAB1APr/AgAAAAAAAAAyAAMABQAAAAAAAAAMAPP/AgAAAAAAAAAsAAEABQAAAAAAAAAyAP//BQAAAAAAAAAyAAYABQAAAAAAAAAaAPj/BQAAAAAAAAARANj/BQAAAAAAAAAhAOD/BQAAAAAAAAAAAOT/BQAAAAAAAAD8/9z/BQAAAAAAAAD5/97/AwAAAAAAAAD5/+P/AgAAAAAAAAD6/+j/AgAAAAAAAAADAOr/BQAAAAAAAAA=")
+tile_set = ExtResource("1_if4l3")
+
+[node name="Level2" type="Sprite2D" parent="."]
+position = Vector2(-468, -156)
+scale = Vector2(0.57301587, 0.4860724)
+texture = ExtResource("2_4038r")
+
+[node name="playeere" parent="." instance=ExtResource("3_2k3dv")]
