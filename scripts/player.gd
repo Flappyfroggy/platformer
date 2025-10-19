@@ -1,9 +1,9 @@
 extends CharacterBody2D
-var initial_p = Vector2(1089.0, 596.0)
+var initial_p = Vector2(1.0, 0.0)
 var notfloor = 0.0
 var gravity = 10000
-var jump = -30000
-const speed = 400
+var jump = -15000
+const speed = 200
 func _physics_process(delta):
 	velocity.x = 0
 	velocity.y = 0
