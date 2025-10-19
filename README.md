@@ -1,2 +1,0 @@
-# platformer
-godot platformer

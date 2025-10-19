@@ -1,0 +1,28 @@
+[gd_scene load_steps=4 format=3 uid="uid://bm6g4l4px8bti"]
+
+[ext_resource type="Script" uid="uid://6gg0poa6xrhs" path="res://scripts/player.gd" id="1_wwkck"]
+[ext_resource type="Texture2D" uid="uid://cmg3ctd3wf4tn" path="res://assets/greendino.png" id="2_8erjc"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wwkck"]
+size = Vector2(455.20166, 449.09192)
+
+[node name="CharacterBody2D" type="CharacterBody2D"]
+position = Vector2(-38.686966, -71.773865)
+scale = Vector2(0.294375, 0.3406875)
+slide_on_ceiling = false
+floor_stop_on_slope = false
+floor_constant_speed = true
+script = ExtResource("1_wwkck")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(97.45041, -13.8723755)
+shape = SubResource("RectangleShape2D_wwkck")
+
+[node name="Greendino" type="Sprite2D" parent="."]
+position = Vector2(83.862305, -15.339959)
+scale = Vector2(1.0231422, 1)
+texture = ExtResource("2_8erjc")
+
+[node name="Camera2D" type="Camera2D" parent="."]
+position = Vector2(131.42068, 210.6736)
+scale = Vector2(3.3970275, 2.9352412)

@@ -4,7 +4,7 @@
 [ext_resource type="Script" uid="uid://6gg0poa6xrhs" path="res://scripts/player.gd" id="2_g2els"]
 
 [sub_resource type="CapsuleShape2D" id="CapsuleShape2D_g2els"]
-radius = 176.64552
+radius = 203.82166
 height = 410.93378
 
 [node name="player" type="Node2D"]
@@ -12,14 +12,18 @@ height = 410.93378
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
 position = Vector2(-38.686966, -71.773865)
 scale = Vector2(0.294375, 0.3406875)
+slide_on_ceiling = false
+floor_stop_on_slope = false
+floor_constant_speed = true
 script = ExtResource("2_g2els")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(128.02356, -18.275208)
+position = Vector2(138.21475, -6.5342402)
 shape = SubResource("CapsuleShape2D_g2els")
 
 [node name="Greendino" type="Sprite2D" parent="CharacterBody2D"]
-position = Vector2(100.847435, -15.339981)
+position = Vector2(83.862305, -15.339959)
+scale = Vector2(1.0231422, 1)
 texture = ExtResource("1_3vyb7")
 
 [node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]

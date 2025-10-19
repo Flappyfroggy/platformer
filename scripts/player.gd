@@ -1,12 +1,11 @@
 extends CharacterBody2D
 var initial_p = Vector2(1.0, 0.0)
 var notfloor = 0.0
-var gravity = 10000
-var jump = -15000
-const speed = 200
+var gravity = 2000.0
+var jump = -600.0
+const speed = 200.0
 func _physics_process(delta):
 	velocity.x = 0
-	velocity.y = 0
 	if Input.is_action_pressed("right"):
 		velocity.x = speed
 	elif Input.is_action_pressed("left"):
