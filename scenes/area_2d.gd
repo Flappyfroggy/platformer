@@ -13,3 +13,6 @@ func _on_body_entered(body: Node2D) -> void:
 		if e.score == 4:
 			get_tree().change_scene_to_file("res://scenes/level4.tscn")
 			print (e.score)
+		if e.score == 5:
+			get_tree().change_scene_to_file("res://scenes/level5.tscn")
+			print (e.score)

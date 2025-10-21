@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://bm6g4l4px8bti"]
+[gd_scene load_steps=5 format=3 uid="uid://bm6g4l4px8bti"]
 
 [ext_resource type="Script" uid="uid://6gg0poa6xrhs" path="res://scripts/player.gd" id="1_wwkck"]
 [ext_resource type="Texture2D" uid="uid://cmg3ctd3wf4tn" path="res://assets/greendino.png" id="2_8erjc"]
+[ext_resource type="PackedScene" uid="uid://nsy5smw42mxu" path="res://scenes/label.tscn" id="3_8erjc"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_wwkck"]
 size = Vector2(455.20166, 449.09192)
@@ -27,4 +28,8 @@ texture = ExtResource("2_8erjc")
 position = Vector2(131.42068, 210.6736)
 scale = Vector2(3.3970275, 2.9352412)
 limit_left = -575
-limit_bottom = 322
+limit_top = -780
+limit_bottom = 400
+
+[node name="label" parent="Camera2D" instance=ExtResource("3_8erjc")]
+position = Vector2(-512, -290)
