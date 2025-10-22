@@ -12,7 +12,6 @@ position = Vector2(-38.686966, -71.773865)
 scale = Vector2(0.294375, 0.3406875)
 slide_on_ceiling = false
 floor_stop_on_slope = false
-floor_constant_speed = true
 script = ExtResource("1_wwkck")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]

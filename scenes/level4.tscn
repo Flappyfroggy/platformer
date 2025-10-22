@@ -45,6 +45,10 @@ texture = ExtResource("6_im88e")
 position = Vector2(3853, -361)
 texture = ExtResource("6_im88e")
 
+[node name="15_png3" type="Sprite2D" parent="."]
+position = Vector2(4731, -106)
+texture = ExtResource("6_im88e")
+
 [node name="moving plat" parent="." instance=ExtResource("7_vxn4p")]
 position = Vector2(2439, 89)
 scale = Vector2(1, -0.5)
@@ -53,7 +57,7 @@ scale = Vector2(1, -0.5)
 position = Vector2(1400, 131)
 
 [node name="moving plat3" parent="." instance=ExtResource("7_vxn4p")]
-position = Vector2(3504, -220)
+position = Vector2(3451, -328)
 
 [node name="moving plat4" parent="." instance=ExtResource("7_vxn4p")]
 position = Vector2(4436, 94)
