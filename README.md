@@ -1,0 +1,1 @@
+Hi! this is a platformer with 5 levels made in godot. The goal is to reach the end without falling, and if you die you have to restart at level 1. A little bird told me that.. some fish would help you on your journey? Made because games are fun and cool :)
