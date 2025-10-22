@@ -7,8 +7,8 @@ script = ExtResource("1_2uqk7")
 
 [node name="label" type="RichTextLabel" parent="."]
 offset_left = -2.0
-offset_right = 162.0
-offset_bottom = 39.0
+offset_right = 317.0
+offset_bottom = 64.0
 theme_override_colors/default_color = Color(0.029772148, 0.030999955, 0.018349709, 1)
-theme_override_font_sizes/bold_font_size = 16
+theme_override_font_sizes/normal_font_size = 43
 text = "You have 0 fish"

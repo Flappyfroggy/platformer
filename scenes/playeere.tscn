@@ -29,7 +29,7 @@ position = Vector2(131.42068, 210.6736)
 scale = Vector2(3.3970275, 2.9352412)
 limit_left = -575
 limit_top = -780
-limit_bottom = 400
+limit_bottom = 600
 
 [node name="label" parent="Camera2D" instance=ExtResource("3_8erjc")]
 position = Vector2(-512, -290)
